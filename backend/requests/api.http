@@ -1,0 +1,26 @@
+### Obtener todas las personas
+GET http://localhost:3001/api/persons/
+
+### Obtener persona por id
+GET http://localhost:3001/api/persons/66a713221978f64e573c42aa
+ 
+### Eliminar persona
+DELETE http://localhost:3001/api/persons/1
+
+### Crear persona
+POST http://localhost:3001/api/persons/
+Content-type: application/json
+
+{
+    "name": "coloco",
+    "number": 33324212
+}
+
+### Actualizar numero
+
+PATCH http://localhost:3001/api/persons/66947b90ecc5cabb1f447bbf
+Content-Type: application/json
+
+{
+    "number": 33256546
+}
