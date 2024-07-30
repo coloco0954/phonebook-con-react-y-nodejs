@@ -9,14 +9,13 @@ Esta es una aplicación sencilla de libreta de direcciones construida utilizando
 - [Uso](#uso)
 - [Tecnologías](#tecnologías)
 - [Contribuyendo](#contribuyendo)
-- [Licencia](#licencia)
 
 ## Características
 
 - Agregar nuevos contactos con nombre y número de teléfono.
 - Ver una lista de todos los contactos.
 - Eliminar contactos de la libreta de direcciones.
-- Diseño responsivo para una mejor experiencia de usuario en diferentes dispositivos.
+- **Actualizar el número de los contactos:** Para actualizar el número de un contacto, escribe en el formulario un nombre ya existente con un nuevo número.
 
 ## Requisitos Previos
 
@@ -29,7 +28,7 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/phonebook.git
+    git clone https://github.com/coloco0954/phonebook-con-react-y-nodejs
     ```
 
 2. Navega al directorio del proyecto:
@@ -65,10 +64,10 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
 
 3. Inicia el servidor backend:
     ```sh
-    pnpm start
+    pnpm run dev
     ```
 
-   El servidor backend se ejecutará en `http://localhost:5000`.
+   El servidor backend se ejecutará en `http://localhost:3001`.
 
 ### Ejecutar la Aplicación Frontend
 
@@ -79,15 +78,15 @@ Antes de comenzar, asegúrate de cumplir con los siguientes requisitos:
 
 2. Inicia el servidor de desarrollo de React:
     ```sh
-    pnpm start
+    pnpm run dev
     ```
 
-   La aplicación frontend se ejecutará en `http://localhost:3000`.
+   La aplicación frontend se ejecutará en `http://localhost:5173`.
 
 ## Tecnologías
 
-- Frontend: React, CSS
-- Backend: Node.js, Express
+- Frontend: React, TailwindCSS
+- Backend: Node.js, Express, Mongoose
 - Base de Datos: MongoDB
 
 ## Endpoints de la API
@@ -112,7 +111,3 @@ Para revisar los endpoints de la API, consulta el archivo en la carpeta `backend
     git push origin feature/TuCaracteristica
     ```
 5. Abre un pull request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles.
